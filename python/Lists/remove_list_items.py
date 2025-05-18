@@ -14,3 +14,6 @@ myarr3.pop(2)  # Remove the item at index 2
 print('Remove Values index: ',myarr3)  # Remove the item at index 2
 
 
+
+
+# myarr.clear()  # Remove all items from the list
