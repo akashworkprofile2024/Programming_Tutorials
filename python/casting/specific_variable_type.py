@@ -1,0 +1,5 @@
+x = int(1)
+y = str(x)
+z = float(x)
+print(x, y, z)
+print(type(x), type(y), type(z))
