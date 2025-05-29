@@ -120,3 +120,8 @@ STATIC_URL = 'static/' # URL prefix for static files
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# for migrate   python manage.py migrate
+# for runserver  python manage.py runserver
+# for createsuperuser  python manage.py createsuperuser
