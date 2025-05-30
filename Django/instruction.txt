@@ -2,3 +2,18 @@ create Project = django-admin startproject projectname
 Run server = python manage.py runserver
 Change Server Port = python manage.py runserver444
 Create SuperUser = python manage.py createsuperuser
+
+Create URL
+create views.py file
+Type :  from django.http import HttpResponse
+
+def aboutus(request):
+    return HttpResponse('Welcome Django project!')
+
+Open urls.py
+add : from projectname import views
+urlpatterns = [
+   path('about-us/', views.aboutus, name='aboutus'),
+]
+
+
