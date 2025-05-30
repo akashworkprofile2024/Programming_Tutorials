@@ -1,0 +1,3 @@
+create Project = django-admin startproject projectname
+Run server = python manage.py runserver
+Change Server Port = python manage.py runserver444
