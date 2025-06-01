@@ -54,7 +54,7 @@ ROOT_URLCONF = 'hunterproject.urls'
 TEMPLATES = [ # Template settings
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [], # Add your template directories here if needed
+        'DIRS': [BASE_DIR,'templates'], # Add your template directories here if needed
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
