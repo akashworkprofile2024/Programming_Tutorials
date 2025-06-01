@@ -21,4 +21,11 @@ from hunterproject import views
 urlpatterns = [
     path('admin-panel/', admin.site.urls),
     path('about-us/', views.aboutus, name='aboutus'),
+    
+    #Dynamic URL
+    path('explore-course',views.course, name='course'),
+    # path('explore-course/<int:courseid>',views.coursedetails, name='coursedetails'),
+    # path('explore-course/<str:courseid>',views.coursedetails, name='coursedetails'),
+    path('explore-course/<slug:courseid>',views.coursedetails, name='coursedetails'),
+    
 ]
