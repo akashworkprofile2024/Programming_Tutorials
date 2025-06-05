@@ -67,4 +67,6 @@ class student(studetail):
         super().__init__(fname,lname)
         self.graduateon = "BCA"
 obj4 = student("Akash","Biswas")
-print(obj4.firstname,obj4.lastname,"","Graduated On : ",obj4.graduateon)                  
+print(obj4.firstname,obj4.lastname,"","Graduated On : ",obj4.graduateon)      
+
+
